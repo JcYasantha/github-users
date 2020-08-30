@@ -23,3 +23,9 @@ input[type="text"]:focus {
 .App {
   text-align: center;
 }
+.home-link {
+  text-decoration-style: none;
+}
+.home-link:hover {
+  text-decoration-style: none;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 const Navbar = () => {
@@ -6,7 +7,9 @@ const Navbar = () => {
     <div>
       <nav className='navbar navbar-dark'>
         <p className='navbar-brand'>
-          <i className='fa fa-github' aria-hidden='true'></i> GithubUsers
+          <Link to='/' className='navbar-brand'>
+            <i className='fa fa-github' aria-hidden='true'></i> GithubUsers
+          </Link>
         </p>
       </nav>
     </div>
