@@ -20,6 +20,11 @@ input[type="text"]:focus {
   height: 75px;
   border-radius: 50%;
 }
+.avatar-user {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 .App {
   text-align: center;
 }
