@@ -1,22 +1,18 @@
 body {
   background-color: #282c34;
-  color: #9db4a5;
+  color: rgb(157, 180, 165);
 }
-
 input[type="text"] {
   background: #282c34;
   border: none;
 }
-
 input[type="text"]:focus {
   background: #282c34;
   border: none;
 }
-
 .card {
   background: #282c34;
 }
-
 .avatar {
   margin-left: auto;
   margin-right: auto;
@@ -24,24 +20,17 @@ input[type="text"]:focus {
   height: 75px;
   border-radius: 50%;
 }
-
 .avatar-user {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
-
 .App {
   text-align: center;
 }
-
 .home-link {
-  -webkit-text-decoration-style: none;
-          text-decoration-style: none;
+  text-decoration-style: none;
 }
-
 .home-link:hover {
-  -webkit-text-decoration-style: none;
-          text-decoration-style: none;
+  text-decoration-style: none;
 }
-/*# sourceMappingURL=App.css.map */
